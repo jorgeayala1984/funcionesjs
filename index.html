@@ -41,23 +41,24 @@
         </div>
     </aside>
        
-    <h1 class="h1">lista de tareas</h1>
-    <div class="search">
+    <div class="cuadroTareas">
+        <h1 class="h1">lista de tareas</h1><br>
         <form>
        
             <input type="text" name="" id="tareaNueva" placeholder="ingrese su nueva tarea">
             <button id="botonTarea">+</button>
         </form>
+        <div id="container">
+            <ul id="ul_tareas">
+            </ul>
+            <div id="empy">
+                <p id="p_tarea">no tienes tareas pendientes</p>
+            </div>
+    
+        </div>
     </div>
-    <div id="container">
-        <ul id="ul_tareas">
-            <li></li>
-        </ul>
+   
 
-    </div>
-    <div id="empy">
-        <p id="p_tarea">no tienes tareas pendientes</p>
-    </div>
        
 
     <script src="main.js"></script>
